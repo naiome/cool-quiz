@@ -1,11 +1,11 @@
-const corrcetAnswers = ['B', 'C', 'D', 'A', 'C', 'B', 'A', 'C', 'B'];
+const corrcetAnswers = ['B', 'C', 'D', 'A', 'C', 'B', 'A', 'C', 'B', 'D'];
 const form = document.querySelector('.quiz-form');
 const result = document.querySelector('.result');
 const button = form.querySelector('.btn');
 
 const inputNames = form.querySelectorAll('input[type=radio]');
 console.log(inputNames)
-let j = inputNames.length
+let j = inputNames.length + 1
 while (j--) {
     inputNames.forEach((elem) => {
         elem.addEventListener("change", () => {
