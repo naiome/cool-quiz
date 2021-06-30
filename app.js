@@ -22,7 +22,7 @@ form.addEventListener('submit', e => {
 
     userAnswers.forEach((answer, index) => {
         if (answer === corrcetAnswers[index]) {
-            score += 1;
+            score += 10;
         }
     });
 
